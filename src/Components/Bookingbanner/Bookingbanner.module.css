@@ -1,0 +1,99 @@
+.banner {
+    background-color: #00bcd4; /* Adjust the background color */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   
+    border-radius: 30px;
+  }
+  
+  .bannerimgContainer img{
+    border-bottom: 0.5px solid #0018a7;
+  }
+  .bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .mainbannerContainer {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  .bannerimgContainer {
+    max-width: 300px;
+  }
+  
+  .bannerTextcontainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bannerMainHead {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bannerMainHead span {
+    color: #ff4081; /* Adjust the color for the emphasis text */
+  }
+  
+  .bannercontent {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .banerbutton {
+    background-color: #002d79; /* Button background color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banerbutton:hover {
+    background-color: #004695; /* Button hover color */
+  }
+  
+  @media (min-width: 768px) {
+    
+    .bannerContainer {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .bannerTextcontainer {
+      margin-left: 50px;
+      text-align: left;
+    }
+  
+    .bannerMainHead {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .banner{
+        margin: 50px 80px;
+    }
+    .bannerMainHead {
+      font-size: 3rem;
+    }
+  
+    .bannercontent {
+      font-size: 1.5rem;
+    }
+  }
+  

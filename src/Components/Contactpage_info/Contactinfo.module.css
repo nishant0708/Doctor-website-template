@@ -1,0 +1,14 @@
+.contactinfo{
+    padding: 20px 50px 0px 50px;
+    text-align: center;
+    align-items: center;
+}
+.contactinfo h1{
+    font-size: 3.5rem;
+}
+.contactinfo p{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 800px;
+    margin: auto;
+}

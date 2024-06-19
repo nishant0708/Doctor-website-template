@@ -1,0 +1,60 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Add a subtle background color to make the section stand out */
+  }
+  
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    align-self: center; /* Center the image in the flex column */
+  }
+  
+  .aboutText {
+    margin-bottom: 20px;
+    flex-grow: 1; /* Allow the text to take up available space */
+  }
+  
+  .aboutText h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .aboutText p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .aboutContent {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .aboutImage {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .aboutText {
+      margin-left: 20px;
+      padding-right: 20px; /* Add padding to the right to avoid touching the edge */
+    }
+  }
+  

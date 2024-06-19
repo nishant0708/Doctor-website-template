@@ -1,0 +1,123 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: #000037;
+  color: white;
+  align-items: flex-start;
+}
+.footer_icon_main_container{
+    width: 30%;
+}
+.rights{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_icon_container {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.footer_icon {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.footer_icon:hover svg {
+  fill: white;
+}
+.footer_info{
+    width: 30%;
+}
+.footer_icon:hover {
+  background-color: #0DB3B1;
+}
+.footer_info_headings {
+  font-weight: 600;
+ margin: 0;
+  font-size: 36px;
+}
+.footer_info_links p {
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer_info_links p:hover {
+  border-left: 10px solid #0DB3B1;
+}
+.footer_top_links_heading{
+  font-weight: 600;
+  margin: 0;
+
+  font-size: 36px;
+}
+.footer_top_linklist Link {
+    color: #0DB3B1;
+    text-decoration: none;
+}
+.footer_top_linklist p{
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer_top_links{
+    width: 30%;
+}
+.footer_top_linklist p:hover {
+    border-left: 10px solid #0DB3B1;
+  }
+.link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.link:hover{
+    color: #0DB3B1;
+}
+@media (max-width:1024px) {
+    .rights{
+        font-size: 12px;
+    }
+    .footer_info_headings{
+        font-size: 24px;
+    }
+    .footer_info_links p{
+        font-size: 14px;
+    }
+    .footer_top_links_heading{
+        font-size: 24px;
+    }
+    .footer_top_linklist p{
+        font-size: 14px;
+    }
+    .footer_icon svg{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .footer_icon_container {
+        margin-top: 10px;
+    }
+    .footer_icon{
+        padding: 8px 10px;
+       
+    }
+}
+@media (max-width:768px){
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer_icon_main_container{
+        width: 100%;
+    }
+    .footer_info{
+        width: 100%;
+    }
+    .footer_top_links{
+        width: 100%;
+    }
+}

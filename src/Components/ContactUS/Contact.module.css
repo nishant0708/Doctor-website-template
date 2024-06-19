@@ -1,0 +1,131 @@
+.git{
+    position: relative;
+    padding: 40px 0px;
+    background: #0db3b022;
+}
+
+.gitcontainer{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.gitimgcontainer{
+    padding: 20px;
+}
+.gitimgcontainer img{
+    width: 550px;
+}
+.gitformcontainer{
+    width: 40%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.gitformcontainer p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 64px;
+    text-align: left;
+    color: #000;
+}
+.gitformcontainer input{
+   
+    padding: 5px 5px;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid #0DB3B1;
+    border-left: 2px solid #0DB3B1 ;
+    border-radius: 10px 0px  10px 10px;
+    padding: 5px;
+    margin-top: 20px;
+    transition: forwards 0.5s;
+}
+.gitformcontainer input:focus{
+    border-bottom: 2px solid #045857;
+    border-left: 2px solid #045857 ;
+}
+.gitformcontainer input::placeholder{
+    color: #000000c0;
+    font-weight: 600px;
+}
+.gitformcontainer textarea{
+    margin-top: 20px;
+   height: 150px;
+   font-size: 18px;
+   max-height: 200px;
+   max-width: 100% !important;
+   min-width: 100% !important;
+   background-color: transparent;
+   border: 2px solid #0DB3B1;
+   border-radius: 10px;
+   padding: 10px;
+}
+.gitformcontainer textarea::placeholder{
+    color: #000000c0;
+    font-weight: 600px;
+    
+  
+}
+.gitformcontainer textarea:focus{
+    outline: 1px solid #045857;
+}
+.gitformcontainer button{
+    outline:none;
+    background-color: #0DB3B1;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 5px;
+    font-weight: 600;
+    color: white;
+    border: 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: forwards 0.5s;
+}
+.gitformcontainer button:hover{
+    border: 1px solid #005150 ;
+    background-color: #1fa19f;
+}
+@media (max-width:1080px) {
+    .gitimgcontainer{
+        align-items: center;
+    }
+    .gitimgcontainer img{
+        width: 350px;
+        
+    }
+    .gitformcontainer p{
+        font-size: 36px;
+    }
+}
+@media (max-width:900px){
+    .gitcontainer{
+        padding: 0px 40px;
+    }
+    .gitformcontainer p{
+        text-align: center;
+        font-size: 48px;
+    }
+    .gitimgcontainer{
+        width: 100%;
+        align-items: center;
+    }
+    .gitimgcontainer img{
+        width: 300px;
+    
+    }
+    .gitformcontainer{
+        width: 100%;
+    }
+    .gitcontainer{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
